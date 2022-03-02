@@ -1,0 +1,7 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\contentsline {chapter}{\numberline {1}Introduzione}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Contatti}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Bibliografia}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Descrizione del corso}{1}{section.1.3}%
