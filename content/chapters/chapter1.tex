@@ -1,0 +1,250 @@
+\chapter{Concorrenza perfetta, monopolio, potere e fallimenti di mercato}
+\label{sec:Concorrenza perfetta, monopolio, potere e fallimenti di mercato}
+
+\section{Concorrenza perfetta}
+\begin{itemize}
+    \item Aziende Price Taker: le imprese non possono fissare il prezzo, vendono al prezzo di mercato
+    \item Il prezzo deriva dall'interazione tra domanda e offerta, l'unico in grado di fissarlo è quindi il mercato
+    \item I prodotti sono omogenei
+    \item L'informazione è perfetta
+\end{itemize}
+
+\begin{equation} \label{eq:1}
+    p=(L)ML=(LR)AC
+\end{equation}
+
+Come vediamo nell'equazione \ref{eq:1} i prezzi vengono fissati ai costi marginali incrementali, nel lungo periodo si dimostra che il prezzo è anche pari al costo medio e di conseguenza nel lungo periodo le imprese non hanno extra-profitti.
+
+Durante il corso si considererá solamente la forma di mercato "concorrenza perfetta" perché è l'unica che massimizza il benessere collettivo (welfare). Favorire la concorrenza è quindi importante per avvicinarsi allo stato di benessere collettivo ideale.
+
+Nell'immagine \ref{fig:curva_domanda_offerta} è possibile osservare la curva di domanda (decrescente) e la curva dell'offerta (crescente). Aumentando la domanda, spostando quindi la curva decrescente a destra,  li prezzo di equilibrio definito da \(p*\) si sposterebbe lungo la curva dell'offerta verso destra aumentando. Viceversa aumentando l'offerta il prezzo \(p*\) si sposterebbe lungo la curva della domanda diminuendo.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.7\linewidth]{images/chapter1/1.jpg}
+    \caption{Curva di domanda e offerta}
+    \label{fig:curva_domanda_offerta}
+\end{figure}
+
+\section{Domanda individuale: teoria del consumatore}
+
+\begin{equation}
+    \label{eq:2}
+    \begin{gathered}
+        \nu(p,m)=max(u(x)) \\
+        s.t. \underbrace{p*q = m}_{\makebox[0pt]{Vincolo di bilancio}}
+    \end{gathered}
+\end{equation}
+\begin{conditions*}
+    p*q &   spesa del consumatore \\
+    m   &   reddito
+\end{conditions*}
+
+Il vincolo di bilancio quindi tiene conto di reddito e prezzi, risolvendo l'equazione trovo \(q\) cioè la quantità. Trovando il massimo della funzione di utilità rispetto alla quantità trovo \(q'\).
+
+Il problema di massimizzazione dell'utilità può essere risolto utilizzando la Lagrangiana:
+\begin{equation}
+    \label{eq:lagrange}
+    L=u(q)-\lambda(p*q-m)
+\end{equation}
+\begin{conditions*}
+    u(q)    &   Spesa del consumatore \\
+    \lambda &   Reddito \\
+    p*q-m   &   Vincolo di bilancio
+\end{conditions*}
+
+A questo punto si calcola la derivata dell'utilità e la si eguaglia a 0 per massimizzarla:
+\begin{equation}
+    \frac{\partial u(q)}{\partial q_i} - \lambda(p_i) = 0
+\end{equation}
+
+Che può essere riscritta come segue
+\begin{equation}
+    \underbrace{\frac{\frac{\partial u(q*)}{\partial q_i}}{\frac{\partial u(q*)}{\partial q_j}}}_{(a)} = \underbrace{\frac{p_i}{p_j}}_{(b)}
+\end{equation}
+\begin{conditions*}
+    (a) &   saggio marginale di sostituzione, corrisponde all'inclinazione della curva di indifferenza \\
+    (b) &   rapporto tra i prezzi che corrisponde all'inclinazione della curva di bilancio
+\end{conditions*}
+
+Questa condizione nasconde il rapporto tra effetto reddito ed effetto sostituzione, un questo corso si presuppone la condizione di \textbf{equilibrio parziale}.
+
+\subsection{Funzione di utilità quasi-lineare}
+
+Si considera un mercato preso singolarmente, idealmente isolato rispetto agli altri, in questo contesto \textbf{equilibrio parziale} significa che una variazione all'interno di un mercato impatta principalmente sul mercato stesso e non nell'economia globale.
+
+Si introducono quindi 2 ipotesi semplificative:
+\begin{enumerate}
+    \item \label{itm:1}Effetto sostituzione nullo
+    \item \label{itm:2}Effetto reddito nullo
+\end{enumerate}
+
+Il prezzo degli altri beni può essere considerato fisso e può essere normalizzato a "1". È possibile quindi , a fronte delle condizioni \ref{itm:1} and \ref{itm:2} riscrivere la funzione di utilità come segue:
+
+\begin{equation}
+    \label{eq:3}
+    \begin{gathered}
+        U(x,y)=u(x)+y \\
+        s.t. p*x + y = m
+    \end{gathered}
+\end{equation}
+\begin{conditions*}
+    p*x &   spesa del consumatore \\
+    y   &   quantità del bene y \\
+    m   &   reddito
+\end{conditions*}
+
+Dopo aver calcolato la lagrangiana, come nell'equazione \ref{eq:lagrange}, massimizzo nuovamente l'utilità, sia in termini di x che in termini di y:
+
+\begin{equation}
+    \label{eq:4}
+    \begin{split}
+        &\frac{\partial L}{\partial x} = \frac{\partial u(x)}{\partial x} - \lambda*p = 0 \\
+        &\frac{\partial L}{\partial y} = 1- \lambda = 0
+    \end{split}
+\end{equation}
+
+Unendo le equazioni \ref{eq:4} ottengo:
+
+\begin{equation}\label{eq:maxutilita}
+    \frac{\partial u(x)}{\partial x} = u'(x) = p
+\end{equation}
+\begin{conditions*}
+    u'(x)   &   utilità marginale \\
+    p       &   prezzo
+\end{conditions*}
+
+Ne consegue che l'utilità marginale è uguale al prezzo.
+
+In queste condizioni quindi la quantità \(x\) dipende solo e soltanto dal prezzo, non si ha pertanto effetto reddito.
+
+L'interpretazione è quindi molto più diretta, il consumatore comprerà il bene fino a quando la sua utilità marginale sarà maggiore o uguale al prezzo.
+
+\section{Surplus}
+
+\begin{itemize}
+    \item Surplus del consumatore: beneficio totale o valore che il consumatore riceve oltre al prezzo pagato.
+    \item Surplus del produttore: beneficio totale o ricavo/profitto ch eun produttore riceve oltre ai costi di produzione
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.6\linewidth]{images/chapter1/2.jpg}
+    \caption{Surplus del consumatore (in giallo) e surplus del produttore (in blu)}
+    \label{fig:curva_surplus}
+\end{figure}
+
+Tutte le aziende vendono un prodotto ad un prezzo uguale pari a 5.
+
+\begin{itemize}
+    \item I consumatore nel punto \(Q_d\): massimizzerebbero la loro utilità anche pagando 9, sarebbero quindi disposti a pagare 9 ma pagano 5, hanno quindi un surplus (del consumatore) pari a 4.
+    \item I produttore in \(Q_s\) massimizzerebbero la loro utilià anche se vendessero ad un prezzo pari a 3, ricavano però 5 quindi hanno un surplus di 2.
+\end{itemize}
+
+È molto iportante capire come molte delle decisioni dipendono da questo surplus, sia dal lato del consumatore che dal lato del produttore.
+
+Possiamo calcolare l'area dei due triangoli in due modi differenti:
+
+\begin{enumerate}
+    \item Dal lato del prezzo (guardando il grafico orizzontalmente)
+
+          \begin{equation}
+              CS = V(p) = \int_{p*}^{\infty}q(p)\,dp
+          \end{equation}
+
+          risulta quindi:
+          \begin{equation}
+              \frac{\partial V(p)}{\partial p} = -q(p)
+          \end{equation}
+
+          La domanda presenta quindi un'inclinazione negativa, il segno "-" è dovuto al fatto che \(p*\) è l'estremo inferiore. Se aumenta il prezzo, il surplus del consumatore diminuisce.
+
+    \item Dal lato della quantitá (guardando il grafico verticalmente):
+          \begin{equation}
+              CS = S(q) - p(q)*q
+          \end{equation}
+
+          dove:
+          \begin{equation}
+              S(q) = \int_{0}^{q*}  p(q)\,dq
+          \end{equation}
+          \(S(q)\) è quindi il surplus lordo, ovvero il trapezio rettangolo che comprende il triangolo giallo, il triangolo blu e la base maggiore fino a \(Q_0\).
+
+          Risulta quindi:
+          \begin{equation}
+              \frac{\partial S(q)}{\partial q} = p(q)
+          \end{equation}
+
+          \begin{conditions*}
+              p(q)            &   spesa del consumatore\\
+              \partial S(q)   &   Variazione del surplus lordo
+          \end{conditions*}
+
+          In questo caso se aumento la quantità l'area del surplus lordo aumenta.
+\end{enumerate}
+
+Ne consegue che il surplus del consumatore ha due definizioni differenti a seconda della variabile di riferimento utilizzata (prezzo o quantità).
+
+\section{Applicazioni con l'Economia del Benessere (Welfare)}
+\subsection{Applicazioni in concorrenza perfetta}
+Che effetto ha la presenza di un mercato in concorrenza perfetta sull'utilitá del consumatore?
+\begin{itemize}
+    \item 1 impresa in concorrenza perfetta
+    \item 1 consuamatore
+\end{itemize}
+l'utilitá massimizzata è l'equazione \ref{eq:maxutilita} quindi:
+\[u'(x)=p\]
+L'impresa in questione ha un costo \(c'>0\), \(c''>0\) e \(c(0)=0\), in concorrenza perfetta quindi
+\[p=c'(x)\]
+Ne consegue che:
+\begin{equation}
+    u'(x)=c'(x)
+\end{equation}
+Questa condizione mi diche che il consumatore continuerà a consumare il bene fino a quando il beneficio che ottiene coprirá i costi di produzione di quel bene.
+
+\subsection{Applicazione con funzione di Welfare}
+
+Definiamo quindi la funzione di Welfare:
+\begin{equation}
+    \label{eq:welfare}
+    \begin{split}
+        W   &= max[CS(q) + PS(q)] =\\
+            &= [u(q) - p(q)] + p*q - c*q =\\
+            &= u(q) - c(q)
+    \end{split}
+\end{equation}
+\begin{conditions*}
+    q & quantitá
+\end{conditions*}
+Con lo sviluppo \ref{eq:welfare} si dimostra quindi che la concorrenza perfetta massimizza l'utilitá del consumatore e il benessere collettivo. È quindi considerata il caso \textbf{benchmark}.
+
+\subsection{Primo teorema dell'economia del benessere}
+
+\begin{theorem}
+    Se tutti i mercati fossero in concorrenza perfetta ogni scambio porterebbe alla migliore allocazione delle risorse possibile e sarebbero, di conseguenza, economicamente efficienti.
+\end{theorem}
+
+\begin{theorem}
+    Ogni allontanamento dalle condizioni di concorrenza perfetta ha, come conseguenza, un effetto peggiorativo sul benessere collettivo.\footnote{Un peggioramento del benessere collettivo può significare anche uno sbilanciamento come ad esempio un aumento del benessere delle sole imprese a scapito di una diminuzione del benessere dei consumatori o viceveversa}
+\end{theorem}
+
+\subsection{Equitá ed Efficienza}
+L'equilibrio dei mercati porta anche ad un allocazione delle risorse equa a livello sociale?
+
+La risposta è \textbf{no}, non c'è nessuna ragione per dire che un mercato efficiente porta ad un'allocazione delle risorse socialmente equa, da qui deriva il secondo teorema del benessere;
+
+\subsection{Secondo teorema dell'economia del benessere}
+
+\begin{theorem}
+    La soluzione dell'economia perfetta porterebbe ad una soluzione equa dal punto di vista sociale solo sotto la condizione stringente che cci sia una riallocazione iniziale dei beni
+\end{theorem}
+
+Es. un ricco, prima di usufruire di un bene, dovrebbe distribuire i suoi averi alla collettività, in modo che poi, secondo le regole della concorrenza perfetta, tutti potrebbero usufruire in modo uguale di quello stesso bene.
+
+Una soluzione parziale e incompleta è quella della tassazione.
+
+
+
+
+
+
+

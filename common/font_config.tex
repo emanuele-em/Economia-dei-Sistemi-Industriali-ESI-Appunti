@@ -6,3 +6,8 @@
 \newcommand {\fixednamesfont}{\fontsize {14}{20}\mdseries}
 \newcommand {\namesfont}{\fontsize {14}{20}\bfseries}
 \newcommand {\footfont}{\fontsize {15}{18}\rmfamily}
+
+\newenvironment{conditions*}
+  {\par\vspace{\abovedisplayskip}\noindent
+   \tabularx{\columnwidth}{>{$}l<{$} @{${}={}$} >{\raggedright\arraybackslash}X}}
+  {\endtabularx\par\vspace{\belowdisplayskip}}
