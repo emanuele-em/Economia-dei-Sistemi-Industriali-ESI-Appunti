@@ -17,3 +17,9 @@
 \contentsline {subsection}{\numberline {2.3.4}Equitá ed Efficienza}{9}{subsection.2.3.4}%
 \contentsline {subsection}{\numberline {2.3.5}Secondo teorema dell'economia del benessere}{9}{subsection.2.3.5}%
 \contentsline {section}{\numberline {2.4}Fallimenti di mercato}{9}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Monopolio}{10}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Potere di mercato}{12}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Fonti del potere di mercato}{12}{subsection.2.6.1}%
+\contentsline {subsubsection}{Elasticità della domanda di mercato}{13}{section*.4}%
+\contentsline {subsubsection}{Numero di imprese}{13}{section*.5}%
+\contentsline {subsubsection}{Economie di scala}{13}{section*.6}%

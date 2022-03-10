@@ -248,8 +248,155 @@ Rappresentano tutte le cause che rendono il mercato imperfetto
 
 \begin{enumerate}
     \item \textit{Potere di mercato}: la capacitá di tenere prezzi più alti del prezzo di concorrenza perfetta. Forte riduzione del surplus da parte del consumatore
-    \item \textit{Presenta di esternalitá}: cioe degli effetti che vanno a riverberarsi su tutti gli altri agenti del mercato, effetto che non può essere compensato solo dal prezzo. Genera una disutilitá (i.e. inquinamento ambientale)
+    \item \textit{Presenta di esternalitá}: cioe degli effetti che vanno a riverberarsi su tutti gli altri agenti del mercato, effetto che non può essere compensato solo dal prezzo. Genera una disutilitá (i.e. inquinamento ambientale). É possibile cercare di compensare la disutilitá con un pagamento in denaro o di altro tipo, di fatto si genera un mercato ma in realtá è molto difficile valutare il danno. Nel caso dell'inquinamento le stime sono sempre più sofisticate ma rimane comunque difficile. L'esternalitá potrebbe anche essere positiva come gli \textit{spillover della ricerca}\footnote{Le informazioni della ricerca scientifica che vengono immediatamente rese pubbliche, in questo modo diventano esternalitá positive per le aziende e per l'intero sistema economico}. A livello economico comuque anche un'esternalità positiva non è detto che non crei un fallimento di mercato.
+    \item \textit{Beni pubblici}: Tutti quei beni che sono:
+        \begin{itemize}
+            \item Non esclusivi: non è possibile escludere qualcuno dal loro utilizzo
+            \item Non rivali: Il loro utilizzo non impedisce ad altri lo stesso utilizzo del bene
+        \end{itemize}
+    Si tratta di un fallimento di mercato perche avviene il fenomeno del \textit{Free riding}, questo genere di servizi viene finanziato da qualcuno in maniera maggiore rispetto ad altri, anche a paritá di utilizzo. Non conviene quindi alle imprese fornire quel tipo di servizio che viene fornito obbligatoriamente dallo stato. In questo contesto ansce il copyright.
+    \item \textit{Asimmetria informativa}: Va ad attaccare l'impotesi n. 1 della concorrenza perfetta, ovvero la perfetta informazione. i.e. Quando agli inizi degli anni 2000 c'era il virus della mucca pazza la gente andava a comprare la carne senza saperne la provvenienza. Il mercato lasciato a se stesso è fallito, per correggere la situazinoe lo stato è intervenuto imponendo che tutti i venditori di carne dovessero tracciarne la provvenienza applicando un etichetta con su scritto l'indirizzo d'origine. A prova di questo, oggi non è possibile investire nel mercato di rischio tramite la banca senza aver compilato un foglio per l'analisi del profilo di rischio.
 \end{enumerate}
+
+\section{Monopolio}
+
+Caratteristiche principali del monopolio:
+
+\begin{itemize}
+    \item 1 venditore, tanti compratori
+    \item 1 prodotto (non ci sono beni sostituti)
+    \item Barriere all'entrata
+    \item Impresa price maker, è lei stessa a decidere il prezzo
+\end{itemize}
+
+Ricordiamo che i profitti (\(\pi\)) sono massimizzati a livello output se:
+
+\begin{equation}\label{eq:MCMR}
+    MR=MC
+\end{equation}
+\begin{conditions*}
+    MR & Marginal Reveneu, ricavi marginali\\
+    MC & Marginal Costs, costi marginali
+\end{conditions*}
+
+Il prezzo di equilibrio si ricava da:
+
+\begin{equation}\label{eq:mrexploit}
+    \begin{split}
+        MR  &= P + P'(Q)*Q =\\
+            &= P[1+P'(Q)*\frac{Q}{P}] =\\
+            &= P+P(\frac{1}{E_D})=\\
+            &=MC
+    \end{split} 
+\end{equation}
+
+ricordando che:
+
+\begin{equation}\label{eq:elasticita}
+    \begin{split}
+        E_D &= \frac{\frac{\Delta Q}{Q}}{\frac{\Delta P}{P}} = \frac{\Delta Q}{\Delta P} \frac{P}{Q} \\
+        \lim_{\Delta P \to 0}E_D &= \frac{\partial Q}{\partial P}\frac{P}{Q}
+    \end{split}
+\end{equation}
+
+ne deriva che la condizione di equilibrio, chiamato \textit{Indice di Lerner} è:
+
+\begin{equation}\label{eq:indice di lerner}
+    \frac{P-MC}{P}=\frac{1}{E_D}
+\end{equation}
+
+\begin{conditions*}
+    P   &   	prezzo\\
+    P'(Q)   &   Pendenza della retta della quantita, variazione del prezzo rispetto alla quantita\\
+    Q   &   quantitá\\
+    E_D &   Elasticita della domanda al prezzo, se \(> 1\) allora la domanda è elastica, cioe al variare del prezzo la domanda varia più che proporzionalmente, se \(<1\) ad una variazione del prezzo la domanda varia meno che proporzionalmente
+\end{conditions*}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.7\linewidth]{images/chapter1/3.jpg}
+    \caption{Curva della doppia condizione di mercato}
+    \label{fig:curvaDoppiaCondizioneMercato}
+\end{figure}
+
+Dato che la condizione di equilibrio è la \ref{eq:MCMR}, prendo la quantitá corrispondente a quel punto e la proietto sulla curva della domanda (verticalmente), la distanza tra il prezzo e il costo marginale mi da il \textit{margine di guadagno}, più è incinata la domanda, quindi più è rigida \footnote{Una domanda perfettamente rigida verrebbe rappresentata con una curva verticale parallela all'asse delle ordinate}, più è alto il guadagno
+
+\section{Potere di mercato}
+
+La misura del \textit{Potere di mercato} in un mercato di monopolio è:
+
+\begin{equation}\label{eq:lerner}
+    L=\frac{P-MC}{P}
+\end{equation}
+
+\begin{conditions*}
+    P-MC    &   Markup, differenza tra prezzo del bene e costo marginale\\
+    P   &   Prezzo\\
+    0<L<1   &   L è un valore compreso tra 0 e 1
+\end{conditions*}
+
+Più è alto \(L\) maggiore è il \textit{Potere di mercato}
+
+\subsection{Fonti del potere di mercato}
+
+Il potere di mercato è quindi funzione di diversi fattori, oltre all'\(E_D\), fattori che condizionano \(E_D\), condizionano anche indirettamente il potere di mercato:
+
+\begin{enumerate}
+    \item Elasticitá della domanda di mercato
+    \item Numero di imprese nel mercato: barriere all'entrata e deterrenza di entrata
+    \item Comportamento strategico delle imprese \textit{Incumbent}\footnote{Imprese che stanno entrando nel mercato}
+    \item Nuove tecnologie
+\end{enumerate}
+
+\subsubsection{Elasticità della domanda di mercato}
+
+Quando la domanda è anelastica il potere di mercato è maggiore, i.e. il petrolio ha domanda anelastica perchè è fondamentale per produrre energia, di cui non possiamo fare a meno. 
+
+La presenza di \textit{fornitori alternativi} o prodotti sostituti riducono il potere di mercato, una soluzione all'anelasticità è quindi trovare alternative, trovando fornitori alternativi, nel medio periodo, la domanda si elasticizza.
+
+Per lo stesso motivo i \textit{prodotti sostituti} rendono la domanda più elastica.
+
+\subsubsection{Numero di imprese}
+
+La concorrenza non dipende dal numero di imprese in via esclusiva, dipende anche dalla strategia adottata da esse (i.e. dipende se le imprese competono sul prezzo o sulle quantita).
+
+Il numero di imprese di per se è poco significativo, occorre utilizzare infatti la quantitá di mercato che ogni impresa possiede, un mercato è più concentrato se ci sono solo poche imprese che detengono la maggior parte della quota di mercato (i.e. Google etc.).
+
+Le imprese presenti generano delle barriere all'entrata che possono essere di diversi tipi:
+\begin{itemize}
+    \item Brevetti (patents)
+    \item Copyrights
+    \item Licenze
+    \item Economie di scala
+\end{itemize}
+
+\subsubsection{Economie di scala}
+
+Ci sono essenzialmente due tipologie di barriere all'entrata:
+\begin{enumerate}
+    \item Di tipo \textit{Strutturale}: quando dipendono dalla tecnologia del settore industriale:
+    \begin{itemize}
+        \item \textit{Economie di scala}: permettono di ridurre i costi medi di produzione all'autore della produzione
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=.7\linewidth]{images/chapter1/4.jpg}
+            \caption{Curva dei costi medi in presenza di economie di scala}
+            \label{fig:economiediscala}
+        \end{figure}
+        Se da \(\overline{q}\) arrivo a \(q^*\) riesco ad aumentare la quantità prodotta (\(q\)), aumentando anche l'efficienza (diminuendo i costi). La caratteristica di questo contesto è che risulta più efficiente una azienda molto più grande rispetto a due aziende medie. Se ho due imprese che producono a \(\frac{q^*}{2}\) avró un costo medio di fornitura pari ad \(AC(\frac{q^*}{2})*2 = AC(q^*)\), molto più elevato in proporzione rispetto al caso precedente. Ne consegue che l'ipresa piccola che deve entrare in un mercato con queste caratteristiche andrá in contro ad una serie di costi con l'andamento in figura \ref{fig:economiediscala} con dei costi medi molto alti \(AC(\widetilde(q))\).
+        
+        Si hanno dei costi con questo andamento nei settori \textit{Capital Intensive}, quei settori che hanno bisogno di investimenti altissimi per poter iniziare a produrre all'interno dei quali i costi fissi sono molto alti.
+
+        Tutti i settori \textit{Capital Intesive} hanno barriere all'entrata molto alte.
+
+        \item \textit{Costi sunk}: quando un'impresa incumbent deve sostenere costi per il semplice fatto di entrare nel mercato, costi che quelli giá all'interno non devono sostenere, i costi talvolta sono così alti da affossare l'azienda fin da subito.
+        \item \textit{Vantaggi di costo assoluto}: Il ptoere contrattuale delle aziende incumbent può essere molto minore delle aziende giá presenti nel mercato, le quali possono strappare offerte e prezzi decisamente vantaggiosi
+        \item \textit{Costi sunk da parte dei consumatori}: se un consumatore ha un enorme \textit{switching cost}sicuramente non cambierá il prodotto che giá sta utilizzando. In molti contesti la libertá  di movimento viene meno (i.e. portabilitá del numero nei primi anni 2000, se un individuo desiderava cambiare operatore era costretto a cambiare numero).
+        Il \textit{Switching cost} potrebbe anche essere un costo vero e proprio, da contratto sottoforma di penale.
+
+    \end{itemize}
+\end{enumerate}
+
 
 
 
