@@ -1,10 +1,10 @@
 # Fdb version 3
-["biber thesis"] 1646287364 "thesis.bcf" "thesis.bbl" "thesis" 1646287688
-  "thesis.bcf" 1646287687 105635 68d1dc8a3c7b475bd216457c8e5b085e "pdflatex"
+["biber thesis"] 1646287364 "thesis.bcf" "thesis.bbl" "thesis" 1646845422
+  "thesis.bcf" 1646845420 105635 68d1dc8a3c7b475bd216457c8e5b085e "pdflatex"
   (generated)
   "thesis.bbl"
   "thesis.blg"
-["pdflatex"] 1646287682 "c:/Users/miche/MEGA/polito/magistrale/ESI/Appunti/Economia-dei-Sistemi-Industriali--ESI----Appunti/thesis.tex" "thesis.pdf" "thesis" 1646287688
+["pdflatex"] 1646845410 "c:/Users/miche/MEGA/polito/magistrale/ESI/Appunti/Economia-dei-Sistemi-Industriali--ESI----Appunti/thesis.tex" "thesis.pdf" "thesis" 1646845422
   "c:/Users/miche/MEGA/polito/magistrale/ESI/Appunti/Economia-dei-Sistemi-Industriali--ESI----Appunti/thesis.tex" 1646204352 3664 317b015682d82515fcf65c7322210692 ""
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1646156196 2375 baa924870cfb487815765f9094cf3728 ""
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1646156196 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
@@ -292,17 +292,17 @@
   "common/thesis_info.tex" 1646203882 1184 23cb0aca3ed1b2f2af88fa68b82c379e ""
   "common/toptesi_config.tex" 1646203470 1950 c739307778fcab6d84e5b02a371a0bec ""
   "content/chapters.tex" 1646221099 102 caf4a2664bf38079232a41c58f4fdae6 ""
-  "content/chapters/chapter1.tex" 1646287674 11049 424067c525ef330038f07a5f3aef355d ""
+  "content/chapters/chapter1.tex" 1646845408 11575 fd57cfbf44d41ce717663fc252fb5c97 ""
   "content/chapters/introduzione.tex" 1646221210 1802 5d906783b28ba6fab6e08fb1dbd0cfb4 ""
   "images/chapter1/1.jpg" 1646213539 17513 e3fa03947db0fa9697023592378b2506 ""
   "images/chapter1/2.jpg" 1646246086 93184 e1ec08a9fb77e47d872a6cc2c9fe1907 ""
   "images/logo/logoPoliTo_symbol_only.pdf" 1646155896 221966 1d457512affb3724067c1465fc082e0d ""
-  "thesis.aux" 1646287687 4983 5593cc3ee2a4dd174d975b4c6a7ecc52 "pdflatex"
+  "thesis.aux" 1646845420 5096 e3f8814242eeccf0548b8d7691cc4c60 "pdflatex"
   "thesis.bbl" 1646287367 0 d41d8cd98f00b204e9800998ecf8427e "biber thesis"
-  "thesis.out" 1646287687 3180 a8e690402e21a2fcc23a461c8121e00e "pdflatex"
-  "thesis.run.xml" 1646287687 2269 612405b2180454df8e6f8698d9654d71 "pdflatex"
+  "thesis.out" 1646845420 3251 8aa6c0ccba6f735ac8ed374817541a0f "pdflatex"
+  "thesis.run.xml" 1646845420 2269 612405b2180454df8e6f8698d9654d71 "pdflatex"
   "thesis.tex" 1646204352 3664 317b015682d82515fcf65c7322210692 ""
-  "thesis.toc" 1646287687 1490 ee61fe4a965afab46e885ce50f4b1cd6 "pdflatex"
+  "thesis.toc" 1646845420 1562 7455be7b58273cd2165fb983db5ee363 "pdflatex"
   (generated)
   "thesis.aux"
   "thesis.bcf"

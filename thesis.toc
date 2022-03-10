@@ -9,10 +9,11 @@
 \contentsline {section}{\numberline {2.1}Concorrenza perfetta}{3}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Domanda individuale: teoria del consumatore}{4}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Funzione di utilità quasi-lineare}{5}{subsection.2.2.1}%
-\contentsline {section}{\numberline {2.3}Surplus}{6}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Applicazioni con l'Economia del Benessere (Welfare)}{8}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Applicazioni in concorrenza perfetta}{8}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Applicazione con funzione di Welfare}{8}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Primo teorema dell'economia del benessere}{9}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}Equitá ed Efficienza}{9}{subsection.2.4.4}%
-\contentsline {subsection}{\numberline {2.4.5}Secondo teorema dell'economia del benessere}{9}{subsection.2.4.5}%
+\contentsline {subsection}{\numberline {2.2.2}Surplus}{6}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Economia del Benessere (Welfare)}{8}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Applicazioni in concorrenza perfetta}{8}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Applicazione con funzione di Welfare}{8}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Primo teorema dell'economia del benessere}{8}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Equitá ed Efficienza}{9}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Secondo teorema dell'economia del benessere}{9}{subsection.2.3.5}%
+\contentsline {section}{\numberline {2.4}Fallimenti di mercato}{9}{section.2.4}%
