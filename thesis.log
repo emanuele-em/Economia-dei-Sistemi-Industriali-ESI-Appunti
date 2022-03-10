@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.3.2)  10 MAR 2022 15:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.3.2)  10 MAR 2022 23:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1292,7 +1292,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tran
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 35.
  (./common/config.tex) (./common/toptesi_config.tex
-<images/logo/logoPoliTo_symbol_only.pdf, id=83, 334.3692pt x 334.3692pt>
+<images/logo/logoPoliTo_symbol_only.pdf, id=91, 334.3692pt x 334.3692pt>
 File: images/logo/logoPoliTo_symbol_only.pdf Graphic file (type pdf)
 <use images/logo/logoPoliTo_symbol_only.pdf>
 Package pdftex.def Info: images/logo/logoPoliTo_symbol_only.pdf  used on input line 2.
@@ -1404,7 +1404,7 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
 ]) (./content/chapters/chapter1.tex [2]
 Capitolo 2.
-<images/chapter1/1.jpg, id=143, 223.58531pt x 158.09062pt>
+<images/chapter1/1.jpg, id=153, 223.58531pt x 158.09062pt>
 File: images/chapter1/1.jpg Graphic file (type jpg)
 <use images/chapter1/1.jpg>
 Package pdftex.def Info: images/chapter1/1.jpg  used on input line 23.
@@ -1412,7 +1412,7 @@ Package pdftex.def Info: images/chapter1/1.jpg  used on input line 23.
 [3
 
 ] [4 <./images/chapter1/1.jpg>] [5]
-<images/chapter1/2.jpg, id=179, 415.5525pt x 310.15875pt>
+<images/chapter1/2.jpg, id=189, 415.5525pt x 310.15875pt>
 File: images/chapter1/2.jpg Graphic file (type jpg)
 <use images/chapter1/2.jpg>
 Package pdftex.def Info: images/chapter1/2.jpg  used on input line 131.
@@ -1431,7 +1431,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5.00006> on input line 227.
  [8] [9] [10]
-<images/chapter1/3.jpg, id=234, 372.64218pt x 201.00093pt>
+<images/chapter1/3.jpg, id=244, 372.64218pt x 201.00093pt>
 File: images/chapter1/3.jpg Graphic file (type jpg)
 <use images/chapter1/3.jpg>
 Package pdftex.def Info: images/chapter1/3.jpg  used on input line 317.
@@ -1440,31 +1440,46 @@ Package pdftex.def Info: images/chapter1/3.jpg  used on input line 317.
 Underfull \vbox (badness 6658) has occurred while \output is active []
 
  [11] [12 <./images/chapter1/3.jpg>]
-<images/chapter1/4.jpg, id=253, 397.485pt x 260.47313pt>
+<images/chapter1/4.jpg, id=263, 397.485pt x 260.47313pt>
 File: images/chapter1/4.jpg Graphic file (type jpg)
 <use images/chapter1/4.jpg>
-Package pdftex.def Info: images/chapter1/4.jpg  used on input line 382.
+Package pdftex.def Info: images/chapter1/4.jpg  used on input line 381.
 (pdftex.def)             Requested size: 292.77629pt x 191.86078pt.
- [13] [14 <./images/chapter1/4.jpg>])) [15] (./thesis.aux)
+ [13] [14 <./images/chapter1/4.jpg>]
+<images/chapter1/5.jpg, id=284, 199.49532pt x 181.42781pt>
+File: images/chapter1/5.jpg Graphic file (type jpg)
+<use images/chapter1/5.jpg>
+Package pdftex.def Info: images/chapter1/5.jpg  used on input line 408.
+(pdftex.def)             Requested size: 292.77629pt x 266.29427pt.
+
+Underfull \vbox (badness 2158) has occurred while \output is active []
+
+ [15] [16 <./images/chapter1/5.jpg>] [17]
+<images/chapter1/6.jpg, id=315, 304.88907pt x 187.45032pt>
+File: images/chapter1/6.jpg Graphic file (type jpg)
+<use images/chapter1/6.jpg>
+Package pdftex.def Info: images/chapter1/6.jpg  used on input line 464.
+(pdftex.def)             Requested size: 292.77629pt x 180.0103pt.
+)) [18 <./images/chapter1/6.jpg>] (./thesis.aux)
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: CE365B6A5DBEC689DD4E8B143BB3E04C;3703.
+(rerunfilecheck)             Checksum: 59E14FF9077C5D4C9FF1DA435BA57D51;4030.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43329 strings out of 478276
- 837885 string characters out of 5850490
- 1754444 words of memory out of 5000000
- 60485 multiletter control sequences out of 15000+600000
- 614472 words of font info for 231 fonts, out of 8000000 for 9000
+ 43382 strings out of 478276
+ 838664 string characters out of 5850490
+ 1754650 words of memory out of 5000000
+ 60502 multiletter control sequences out of 15000+600000
+ 615431 words of font info for 240 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  138i,16n,134p,1314b,1360s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi6.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmro10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy6.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on thesis.pdf (19 pages, 778705 bytes).
+Output written on thesis.pdf (22 pages, 859170 bytes).
 PDF statistics:
- 388 PDF objects out of 1000 (max. 8388607)
- 317 compressed objects within 4 object streams
- 85 named destinations out of 1000 (max. 500000)
- 82110 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 433 PDF objects out of 1000 (max. 8388607)
+ 357 compressed objects within 4 object streams
+ 101 named destinations out of 1000 (max. 500000)
+ 82136 words of extra memory for PDF output out of 89155 (max. 10000000)
 

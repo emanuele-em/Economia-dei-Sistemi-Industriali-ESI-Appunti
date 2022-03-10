@@ -2078,6 +2078,16 @@ INPUT ./images/chapter1/4.jpg
 INPUT images/chapter1/4.jpg
 INPUT ./images/chapter1/4.jpg
 INPUT ./images/chapter1/4.jpg
+INPUT ./images/chapter1/5.jpg
+INPUT ./images/chapter1/5.jpg
+INPUT images/chapter1/5.jpg
+INPUT ./images/chapter1/5.jpg
+INPUT ./images/chapter1/5.jpg
+INPUT ./images/chapter1/6.jpg
+INPUT ./images/chapter1/6.jpg
+INPUT images/chapter1/6.jpg
+INPUT ./images/chapter1/6.jpg
+INPUT ./images/chapter1/6.jpg
 INPUT thesis.aux
 INPUT ./thesis.out
 INPUT ./thesis.out

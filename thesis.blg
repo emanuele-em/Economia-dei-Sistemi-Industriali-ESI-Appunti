@@ -1,4 +1,4 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'thesis.blg'
-[240] biber-MSWIN32:340> INFO - === 
-[313] Biber.pm:418> INFO - Reading 'thesis.bcf'
+[161] biber-MSWIN32:340> INFO - === 
+[214] Biber.pm:418> INFO - Reading 'thesis.bcf'

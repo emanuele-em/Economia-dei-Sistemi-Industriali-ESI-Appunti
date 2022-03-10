@@ -23,3 +23,6 @@
 \contentsline {subsubsection}{Elasticità della domanda di mercato}{13}{section*.4}%
 \contentsline {subsubsection}{Numero di imprese}{13}{section*.5}%
 \contentsline {subsubsection}{Economie di scala}{13}{section*.6}%
+\contentsline {subsubsection}{Nuove tecnologie}{15}{section*.8}%
+\contentsline {section}{\numberline {2.7}Costi sociali del Monopolio}{15}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Beni durevoli}{17}{subsection.2.7.1}%
