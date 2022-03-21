@@ -596,21 +596,106 @@ Ci si chiede quindi dove e in quali situazioni conviene privatizzare le aziende,
 
 Fasi del mercato dell'energia elettrica:
 
-\begin{center}
-    Produzione e importo \\
-    \(\downarrow\) \\
-    \(
-    \begin{cases}
-        \begin{gathered}
-        \text{Alta tensione, trasmissione nazionale} \\
-        \downarrow\\
-        \text{Bassa tensione, Trasmissione locale}\\
-        \end{gathered}
-    \end{cases}
-    \)\\
-    \(\downarrow\) \\
-    Mercato locale\\
-\end{center}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.7\linewidth]{images/chapter1/9.jpg}
+    \caption{Fasi del mercato dell'energia elettrica}
+\end{figure}
 
 
+Spinti dall'unione europea volta a liberalizzare i mercati si è deciso di privatizzare determinati settori come quello della produzione dell'energia elettrica rendendo il mercato concorrenziale anche verso i privati stessi che potrebbero autoprocurarsi l'energia elettrica installando, ad esempio, dei pannelli solari. Oggi in Italia TERNA si occupa della distribuzione nazionale dato che la rete è unica. TERNA era una divisione di ENEL, è stata separata e inserita come monopolio, una volta in cittá l'energia è convertita in bassa tensione, anche in queto caso l'energia viene convertita da una sola azienda, si tratta di un monopolio locale e nel caso di Torino è IREN. I venditori finali che forniscono l'energia alle singole case tornano ad essere concorrenti.
 
+Anche il mercato delle telecomunicazioni, soprattutto AT\&T, uno dei giganti delle telecomunicazioni mondiali. Fino al 1980 era il monopolio assoluto negli USA. L'infrastruttura di rete è una enorme barriera all'entrata. L'antitrust americana è intervenuta con uno dei più grandi casi antitrust della storia. La denuncia si basava sul fatto che nel mercato delle telecomunicazioni c'erano grandissimi segmenti che erano ovvi monopoli naturali per la presenza di una sola infrastruttura ma in altri casi la concorrenza era possibile. Venne presa una delle più grandi decisioni della storia per proteggere questo tipo di concorrenza dividendo AT\&T in 8 compagnie diverse, 7 compagnie si occupavano delle comunicazioni urbane in ogni area degli stati uniti di competenza, una sola, sotto il nome di AT\&T, si occupava delle telecomunicazioni interurbane. Con il passare del tempo le aziende che si occupavano di telecomunicazione urbana erano 120 e alla fine degli anni 90, sotto la presidenza Clinton, venne nuovamente deregolarizzato il mercato. Attualmente, con la possibilitá di merge aziendali nel settore le imprese che si occupano di telecumunicazioni negli USA sono rimaste 3: AT\&T, Verizon, Quest.
+
+Da questi casi si ricava che non conta il numero di imprese nel contesto della concorrenza ma conta la quota di mercato che queste imprese detengono. In mercati dove le infrastrutture sono enormi e poche il mercato tende a monopolizzarsi. Dipende quindi dal tipo di infrastruttura.
+
+\subsection{Price Control}
+
+Si cerca ora di dimostrare il motivo per il quale non si fissa un prezzo calmierato in presenza di prezzi considerati troppo elevati
+
+\subsubsection{First Best Pricing}
+
+Questa tecnica consiste nell'imporre che il prezzo eguagli i costi marginali, il problema è che ci si trova in un monopolio naturale quindi i costi medi sono decrescenti e i costi marginali sono sotto i costi medi, si realizza quindi un profitto negativo. Lo stato deve interventire con dei trasferimenti per colmare questo risultato negativo. Accade con determinati servizi come le universitá o i trasporti.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.7\linewidth]{images/chapter1/10.jpg}
+    \caption{First Best Pricing}
+    \label{fig:firstBestPricing}
+\end{figure}
+
+La funzione di utilitá quasi lineare del consumatore è:
+\begin{align*}
+    U^h &= R^h+S^h(p)\\
+    \frac{\partial U^h}{\partial p} &= \frac{\partial S^h(p)}{\partial p}
+\end{align*}
+
+Per un'impresa monoprodotto:
+
+\begin{align*}
+    \max_{\{p\}}W &= S(p)-T+\pi\\
+    \pi &= pq(p)+T-C(q(p))-F
+\end{align*}
+\begin{conditions*}
+    W  & Benessere in funzione del prezzo\\
+    S(p)-T & surplus netto dei consumatori\\
+    \pi & profitto delle imprese in funzione dei prezzi\\
+    T & Trasferimenti, vengono estratti dai consumatori (con segno meno nell'equazione di \(W\)) e vengono aggiunti al profitto delle imprese come parte del ricavo (hanno infatti segno positivo in \(\pi\))\\
+    F & Costi fissi\\
+    C(q(p)) & Costi che dipendono dalla quantità che dipende dal prezzo
+\end{conditions*}
+
+Unendo le due funzioni si ottiene la nuova funzione del benessere:
+
+\begin{equation} \label{eq:nuovoBenessere}
+    W = S(p)-\bcancel{T} + pq(p) + \bcancel{T} - C(q(p))-F
+\end{equation}
+
+si deriva per massimizzare la nuova funzione del benessere \ref{eq:nuovoBenessere}:
+
+\begin{equation}
+    \begin{split}
+        \frac{\partial W}{\partial p} &= 0 \\
+        -\bcancel{q(p)} +\bcancel{q(p)} +pq'(p)-C'(\cdot)q'(p) &= 0\\
+        +p\bcancel{q'(p)} &= C'(\cdot)\bcancel{q'(p)}\\
+        p &= C'(\cdot)
+    \end{split}
+\end{equation}
+
+Ancora una volta si nota che il prezzo sociale deve eguagliare il costo marginale per massimizzare il benessere collettivo
+
+\subsubsection{Second Best Pricing}
+
+Si impone il prezzo al costo medio, questa regola prende il nome di \textit{Verage Cost Pricing Rule}, in questo modo il profitto dell'impresa passa da essere negativo ad essere nullo.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.7\linewidth]{images/chapter1/11.jpg}
+    \caption{Second Best Pricing}
+    \label{fig:secondBestPricing}
+\end{figure}
+
+Il triangolo tratteggiato in figura \ref{fig:secondBestPricing} rappresenta una perdita di benessere. Tutte le volte che lo stato non pò intervenire allora è costretto ad alzare il prezzo causando una perdita di W.
+
+per un'impresa multiprodotto (supponiamo con prodotto \(1\) e prodotto \(2\)):
+
+\begin{align*}
+    C &= F + \sum_{i} c_iq_i\\
+    C &= F + c_1q_1 + c_2q_2  
+\end{align*}
+
+Il costo dipende dalla distribuzione di F tra il prodotto \(1\) e il prodotto \(2\): solitamente viene utilizzata la tecnica \textit{Full Distributed Cost (FDC)}\footnote{Costi pienamente distribuiti}: Il principio si colloca in un contesto multiprodotto, si vuole che i ricavi del servizio \textit{i-esimo} coprano i costi variabili di quel servizio (oppure i costi diretti\footnote{direttamente imputabili al servizio in questione, per esempio derivanti dal suo diretto utilizzo o sostenuti per poter produrre solo quel bene, non costi collaterali o indirettamente imputabili a quel bene}) e in aggiunta una quota \(f_i\) dei costi fissi complessivi \(F\):
+
+\begin{align*}
+    p_iq_i &= c_iq_i + f_iF\\
+    p_i &= c_i + \frac{f_iF}{q_i}
+\end{align*}
+\begin{conditions*}
+    f_i & Prende il nome di \textit{Cost Driver} e diventa il fattore di allocazione
+\end{conditions*}
+
+Esistono diverse metodologie per calcolare questo \textit{Cost Driver} \(f_i\):
+
+\begin{itemize}
+    \item
+\end{itemize}
