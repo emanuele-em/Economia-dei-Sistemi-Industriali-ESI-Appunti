@@ -697,5 +697,123 @@ Il costo dipende dalla distribuzione di F tra il prodotto \(1\) e il prodotto \(
 Esistono diverse metodologie per calcolare questo \textit{Cost Driver} \(f_i\):
 
 \begin{itemize}
-    \item
+    \item \(\frac{R_i}{\sum_{i = 1}^{n} R_i } \rightarrow\) Metodi di allocaione tramite i ricavi, si attribuisce una quota di costo a ciascun servizio in proporzione alla quota di ricavi che produce il servizio stesso sul totale
+    \item \(\frac{Q_i}{\sum_{i = 1}^{n} Q_i } \rightarrow\) Criterio in base alle Quantitá prodotte di quel bene o servizio.
+    \item \(\frac{CD_i}{\sum_{i = 1}^{n} CD_i } \rightarrow\) Criterio in base Costi Diretti
 \end{itemize}
+
+Si prenda in esame il caso della ripartizione in base ai Volumi \(Q\):
+\[
+    p_i = c_i + f_i\frac{F}{q_i}    
+\]
+dove:
+\[
+    f_i = \frac{q_i}{Q}    
+\]
+\[
+    Q = \sum_{i = 1}^{n} q_i  
+\]
+
+di conseguenza:
+
+\begin{align*}
+    p_i &= c_i + \frac{q_iF}{Qq_i} \\
+    p_i &= c_i + \frac{F}{Q} \\
+    p_i - c_i &= \frac{F}{Q} \forall i
+\end{align*}
+\begin{conditions*}
+\forall i & Significa che vale per ogni prodotto
+\end{conditions*}
+
+Si dimostra come questa relazione valga per ognuno dei 3 metodi mostrati sopra:
+
+\begin{itemize}
+    \item \(\frac{p_i-c_i}{p_i} = \frac{p_j-c_j}{p_j}\)
+    \item \(p_i-c_i = p_j-c_j\)
+    \item \(\frac{p_i-c_i}{c_i} = \frac{p_j-c_j}{c_j}\)
+\end{itemize}
+
+
+Fin'ora le osservazioni si sono basate solamente sulla domanda, osservando la domanda la soluzione non è quindi efficiente
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.7\linewidth]{images/chapter1/12.jpg}
+    \caption{Perdita secca e extraprofitto al variare di \(E_d\)}
+\end{figure}
+
+\begin{conditions*}
+    A+B & Extra profitto per coprire i costi fissi \\
+    C + D & Perdita secca o \(DWL\)
+\end{conditions*}
+
+È possibile ottimizzare il \(DWL\) nel seguente modo
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.7\linewidth]{images/chapter1/13.jpg}
+    \caption{Ottimizzazione DWL}
+\end{figure}
+
+\begin{conditions*}
+    A'+B' = A+B & Gli extraprofitti sono in media uguali alla soluzione precedente \\
+    C'+D' < C+D & La somma delle perdite secce è diminuita, a paritá di extraprofitti medi
+\end{conditions*}
+
+In questo modo, giocando sull'elasticitá della domanda, con un prezzo minore in caso di domanda elastica e un prezzo maggiore in caso di domanda rigida si possono mitigare le perdite secche. Si conferma quindi, che anche in caso di monopolio naturale, quindi di monopolio controllato dallo stato, è necessario osservare \(E_d\), nello stesso modo in cui un monopolista non regolato osserva l'indice di Lerner visto nella relazione \ref{eq:indice di lerner}
+
+Si dimostra come trovare il prezzo ottimale:
+\begin{align*}
+    &\max_{\{p_i\}}S(p_i) + \pi (p_i)\\
+    &\text{s.t.} \pi (p_i)>0
+\end{align*}
+Il profitto non negativo è una condizione necessaria per non mandare l'impresa in perdita, segue che:
+
+\begin{align*}
+    L &= S(p_i) + (1+\lambda)\pi (p_i) =\\
+        &= S(p_i) + (1+\lambda)\left[ \sum \left( p_iq_i(p_i) - c(q_i(p_i)) \right) \right]
+\end{align*}
+
+\begin{conditions*}
+    L & Lagrangiana \\
+    S(p_i) & Surplus Lordo \\
+    \lambda & Prezzo ombra dei fondi pubblici, rappresenta quanto costa alla collettivitá l'uso dei fondi pubblici, dipende dal sistema fiscale in uso. Esiste un indice che mostra quanto è distorsivo il sistema fiscale di un paese, secondo questo indice il paese meno distorto al mondo sono gli USA, negli Stati Uniti esiste il prescreening fiscale per pagare le tasse, inoltre il reato fiscale negli Stati Uniti è un reato penale, la conseguenza è che tutti le pagano\\
+\end{conditions*}
+
+A questo punto si deriva:
+\begin{align*}
+    \frac{\partial L}{\partial p_i} &= \frac{\partial S(p_i)}{\partial p_i} + (1+\lambda)\frac{\partial \pi}{\partial p_i} = \\
+    &= -q_i(p_i) + (1+\lambda) \left[ q_i(p_i) + p_iq'_i(p_i) - c'(\cdot)q'_i(p_i) \right] =\\
+    &= (1+\lambda)q'_i(p_i)\left[ p_i-c'(\cdot) \right] + \lambda q_i(p_i) =\\
+    &= p_i-c'(\cdot) =\\
+    &= \frac{-\lambda q_i(p_i)}{(1+\lambda)q'_i(p_i)}
+\end{align*}
+
+dividendo per \(p_i\) si trova la condizione di \textit{Ramsey-Boiteaux};
+
+\begin{equation}
+    \begin{split}
+        L_i &=\frac{p_i-c'(\cdot)}{p_i}=\\
+            &=\frac{\lambda}{1+\lambda}\frac{1}{E_{d_i}}
+    \end{split}
+\end{equation}
+Il margine costo-prezzo è inversamente proporzionale a \(E_d\), ricavata nell'equazione \ref{eq:elasticita}, la struttura è la stessa ma cambia il livello tariffario rispetto a Lerner \ref{eq:indice di lerner}, quando il prezzo è fissato dallo stato il prezzo è scalato verso il basso del fattore \(\frac{\lambda}{1+\lambda}\) rispetto a Lerner, il fattore in questione è un fattore \(<1\)
+
+\vspace{2em}
+\begin{minipage}[t]{.45\linewidth}
+    \textit{Lerner}:
+    \[\frac{p_i-c_i'}{p_i}=\frac{1}{E_d}\]
+\end{minipage}
+\hfill
+\vline
+\hfill
+\begin{minipage}[t]{.45\linewidth}
+    \textit{Ramsey-Boiteaux}:
+    \[\frac{p_i-c_i'}{p_i}=\frac{1}{E_d}k\]
+    dove \(k<1\)
+\end{minipage}
+\vspace{2em}
+
+La soluzione è diversa per via del fattore \(k\) ma simile. \(k\) prende il nome di \textit{scaling down factor}, lo stato quindi prende il prezzo di monopolio e lo abbassa
+
+
+

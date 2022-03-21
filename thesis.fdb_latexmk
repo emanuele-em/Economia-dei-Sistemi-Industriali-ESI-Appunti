@@ -1,10 +1,10 @@
 # Fdb version 3
-["biber thesis"] 1647859810 "thesis.bcf" "thesis.bbl" "thesis" 1647883710
-  "thesis.bcf" 1647883709 105635 68d1dc8a3c7b475bd216457c8e5b085e "pdflatex"
+["biber thesis"] 1647899737 "thesis.bcf" "thesis.bbl" "thesis" 1647900538
+  "thesis.bcf" 1647900537 105635 68d1dc8a3c7b475bd216457c8e5b085e "pdflatex"
   (generated)
   "thesis.bbl"
   "thesis.blg"
-["pdflatex"] 1647861268 "c:/Users/miche/MEGA/polito/magistrale/ESI/Appunti/Economia-dei-Sistemi-Industriali--ESI----Appunti/thesis.tex" "thesis.pdf" "thesis" 1647883710
+["pdflatex"] 1647900532 "c:/Users/miche/MEGA/polito/magistrale/ESI/Appunti/Economia-dei-Sistemi-Industriali--ESI----Appunti/thesis.tex" "thesis.pdf" "thesis" 1647900538
   "c:/Users/miche/MEGA/polito/magistrale/ESI/Appunti/Economia-dei-Sistemi-Industriali--ESI----Appunti/thesis.tex" 1646204352 3664 317b015682d82515fcf65c7322210692 ""
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1646156196 2375 baa924870cfb487815765f9094cf3728 ""
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1646156196 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
@@ -26,6 +26,7 @@
   "c:/texlive/2021/texmf-dist/fonts/tfm/public/lm/ec-lmr10.tfm" 1646156196 12056 7e13df7fe4cbce21b072ba7c4f4deb6e ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/public/lm/ec-lmr12.tfm" 1646156196 12092 7b1546e2d096cfd5dcbd4049b0b1ec2e ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/public/lm/ec-lmr17.tfm" 1646156196 12156 ca1ae6a3c8564e89597f1f993fba1608 ""
+  "c:/texlive/2021/texmf-dist/fonts/tfm/public/lm/ec-lmr6.tfm" 1646156196 12048 c1068d0f4772be9b0ec447692e1d6d82 ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/public/lm/ec-lmr7.tfm" 1646156196 12064 09aa3eeac96bf141d673bb1b0385ce55 ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/public/lm/ec-lmr8.tfm" 1646156196 12064 9b9ade9f64cb32ce1d9a88d21fbd5c2d ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/public/lm/ec-lmri10.tfm" 1646156196 17148 9556e1b5f936b77a796f68d2d559ba99 ""
@@ -300,11 +301,13 @@
   "common/thesis_info.tex" 1646203882 1184 23cb0aca3ed1b2f2af88fa68b82c379e ""
   "common/toptesi_config.tex" 1646203470 1950 c739307778fcab6d84e5b02a371a0bec ""
   "content/chapters.tex" 1646221099 102 caf4a2664bf38079232a41c58f4fdae6 ""
-  "content/chapters/chapter1.tex" 1647861268 42035 e87cc7c0ddf91b4d0fa833f005541ab7 ""
+  "content/chapters/chapter1.tex" 1647900531 47125 f86f5a0770ee8dddd6313ed397f57d2d ""
   "content/chapters/introduzione.tex" 1646221210 1802 5d906783b28ba6fab6e08fb1dbd0cfb4 ""
   "images/chapter1/1.jpg" 1646213539 17513 e3fa03947db0fa9697023592378b2506 ""
   "images/chapter1/10.jpg" 1647622162 38705 d32a3b63a921f15ea95a818ccf2a829e ""
   "images/chapter1/11.jpg" 1647623435 40202 88636df2bf0ea120d5c901f4506bff47 ""
+  "images/chapter1/12.jpg" 1647624534 36816 3c9f8a3d4c9768247e8925de4197def7 ""
+  "images/chapter1/13.jpg" 1647624553 47953 125788273dd00632e55dbc7efc6d3240 ""
   "images/chapter1/2.jpg" 1646246086 93184 e1ec08a9fb77e47d872a6cc2c9fe1907 ""
   "images/chapter1/3.jpg" 1646764542 67979 146fa21083c4cceb653756d8ccb0da3c ""
   "images/chapter1/4.jpg" 1646767443 65374 2b0d308b5e2e1e29617474236d3c9c4e ""
@@ -314,12 +317,12 @@
   "images/chapter1/8.jpg" 1647616280 106682 ee2ee075c7f5999935b5bdfb154e370d ""
   "images/chapter1/9.jpg" 1647619528 60574 c45cc1361d7bb3a2bd4a821325d548e6 ""
   "images/logo/logoPoliTo_symbol_only.pdf" 1646155896 221966 1d457512affb3724067c1465fc082e0d ""
-  "thesis.aux" 1647883709 10471 d8edbf25b9a462d5476da8153e1b529d "pdflatex"
-  "thesis.bbl" 1647859814 0 d41d8cd98f00b204e9800998ecf8427e "biber thesis"
-  "thesis.out" 1647883709 5285 5cc53f212f82d03762abb5a9ec268cb4 "pdflatex"
-  "thesis.run.xml" 1647883709 2269 612405b2180454df8e6f8698d9654d71 "pdflatex"
+  "thesis.aux" 1647900537 10802 3727941f5b6e7830b968626c3cde2161 "pdflatex"
+  "thesis.bbl" 1647899739 0 d41d8cd98f00b204e9800998ecf8427e "biber thesis"
+  "thesis.out" 1647900537 5285 5cc53f212f82d03762abb5a9ec268cb4 "pdflatex"
+  "thesis.run.xml" 1647900537 2269 612405b2180454df8e6f8698d9654d71 "pdflatex"
   "thesis.tex" 1646204352 3664 317b015682d82515fcf65c7322210692 ""
-  "thesis.toc" 1647883709 3193 703c54b9aa5684421593f266a1855b6d "pdflatex"
+  "thesis.toc" 1647900537 3193 703c54b9aa5684421593f266a1855b6d "pdflatex"
   (generated)
   "thesis.aux"
   "thesis.bcf"

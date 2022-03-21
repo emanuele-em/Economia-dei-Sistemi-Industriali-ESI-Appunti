@@ -2124,6 +2124,17 @@ INPUT ./images/chapter1/11.jpg
 INPUT images/chapter1/11.jpg
 INPUT ./images/chapter1/11.jpg
 INPUT ./images/chapter1/11.jpg
+INPUT ./images/chapter1/12.jpg
+INPUT ./images/chapter1/12.jpg
+INPUT images/chapter1/12.jpg
+INPUT ./images/chapter1/12.jpg
+INPUT ./images/chapter1/12.jpg
+INPUT ./images/chapter1/13.jpg
+INPUT ./images/chapter1/13.jpg
+INPUT images/chapter1/13.jpg
+INPUT ./images/chapter1/13.jpg
+INPUT ./images/chapter1/13.jpg
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/lm/ec-lmr6.tfm
 INPUT thesis.aux
 INPUT ./thesis.out
 INPUT ./thesis.out

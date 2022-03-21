@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.3.2)  21 MAR 2022 12:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.3.2)  21 MAR 2022 23:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1503,7 +1503,21 @@ File: images/chapter1/11.jpg Graphic file (type jpg)
 <use images/chapter1/11.jpg>
 Package pdftex.def Info: images/chapter1/11.jpg  used on input line 673.
 (pdftex.def)             Requested size: 292.77629pt x 215.24698pt.
- [26 <./images/chapter1/11.jpg>])) [27] (./thesis.aux)
+ [26 <./images/chapter1/11.jpg>] [27]
+<images/chapter1/12.jpg, id=434, 371.88937pt x 167.12437pt>
+File: images/chapter1/12.jpg Graphic file (type jpg)
+<use images/chapter1/12.jpg>
+Package pdftex.def Info: images/chapter1/12.jpg  used on input line 741.
+(pdftex.def)             Requested size: 292.77629pt x 131.57542pt.
+<images/chapter1/13.jpg, id=435, 362.85562pt x 170.88844pt>
+File: images/chapter1/13.jpg Graphic file (type jpg)
+<use images/chapter1/13.jpg>
+Package pdftex.def Info: images/chapter1/13.jpg  used on input line 753.
+(pdftex.def)             Requested size: 292.77629pt x 137.88693pt.
+ [28 <./images/chapter1/12.jpg>]
+Underfull \vbox (badness 7451) has occurred while \output is active []
+
+ [29 <./images/chapter1/13.jpg>])) [30] (./thesis.aux)
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 5CC53F212F82D03762ABB5A9EC268CB4;5285.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
@@ -1511,18 +1525,18 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43535 strings out of 478276
- 841320 string characters out of 5850490
- 1756828 words of memory out of 5000000
- 60584 multiletter control sequences out of 15000+600000
- 616781 words of font info for 252 fonts, out of 8000000 for 9000
+ 43562 strings out of 478276
+ 841808 string characters out of 5850490
+ 1757828 words of memory out of 5000000
+ 60598 multiletter control sequences out of 15000+600000
+ 619927 words of font info for 255 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  138i,25n,134p,1404b,1360s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi6.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmro10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy6.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on thesis.pdf (31 pages, 1228449 bytes).
+Output written on thesis.pdf (34 pages, 1323512 bytes).
 PDF statistics:
- 561 PDF objects out of 1000 (max. 8388607)
- 466 compressed objects within 5 object streams
- 140 named destinations out of 1000 (max. 500000)
- 82217 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 583 PDF objects out of 1000 (max. 8388607)
+ 483 compressed objects within 5 object streams
+ 146 named destinations out of 1000 (max. 500000)
+ 84275 words of extra memory for PDF output out of 89155 (max. 10000000)
 
