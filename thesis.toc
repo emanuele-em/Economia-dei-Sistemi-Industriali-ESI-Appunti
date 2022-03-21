@@ -26,3 +26,11 @@
 \contentsline {subsubsection}{Nuove tecnologie}{15}{section*.8}%
 \contentsline {section}{\numberline {2.7}Costi sociali del Monopolio}{15}{section.2.7}%
 \contentsline {subsection}{\numberline {2.7.1}Beni durevoli}{17}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}Congettura di Coase}{18}{subsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.7.3}Economia di Pacman}{19}{subsection.2.7.3}%
+\contentsline {subsubsection}{Caso Apple}{20}{section*.11}%
+\contentsline {section}{\numberline {2.8}Monopolio Naturale}{20}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}Congettura di Hick}{20}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {2.8.2}Efficienza dinamica: Arrow vs Shumpeter}{21}{subsection.2.8.2}%
+\contentsline {subsection}{\numberline {2.8.3}Definizione di monopolio naturale}{21}{subsection.2.8.3}%
+\contentsline {subsubsection}{Esempio: Mercato dell'energia elettrica}{23}{section*.14}%
