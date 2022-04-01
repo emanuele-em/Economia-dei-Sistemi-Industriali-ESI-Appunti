@@ -37,3 +37,19 @@
 \contentsline {subsection}{\numberline {2.8.4}Price Control}{24}{subsection.2.8.4}%
 \contentsline {subsubsection}{First Best Pricing}{24}{section*.16}%
 \contentsline {subsubsection}{Second Best Pricing}{26}{section*.18}%
+\contentsline {section}{\numberline {2.9}Sussidiarietá incrociata}{31}{section.2.9}%
+\contentsline {subsection}{\numberline {2.9.1}Test di Faulhaber}{31}{subsection.2.9.1}%
+\contentsline {subsection}{\numberline {2.9.2}Esercizi}{31}{subsection.2.9.2}%
+\contentsline {subsubsection}{Esercizio 1}{31}{section*.22}%
+\contentsline {subsubsection}{Esercizio Test 1}{32}{section*.23}%
+\contentsline {subsubsection}{Esercizio Test 2}{32}{section*.24}%
+\contentsline {subsubsection}{Esercizio test 3}{33}{section*.25}%
+\contentsline {section}{\numberline {2.10}Esternalitá}{33}{section.2.10}%
+\contentsline {subsection}{\numberline {2.10.1}Esternalitá negative}{34}{subsection.2.10.1}%
+\contentsline {subsection}{\numberline {2.10.2}Esternalitá positive}{36}{subsection.2.10.2}%
+\contentsline {subsubsection}{Metcalfe's law}{37}{section*.30}%
+\contentsline {subsubsection}{Effetto palla di neve o Positive Feedback Effect}{37}{section*.31}%
+\contentsline {subsubsection}{Modello di Rohlfs}{37}{section*.32}%
+\contentsline {subsubsection}{Analisi di mercato in presenza di esternalitá di rete}{41}{section*.37}%
+\contentsline {subsubsection}{Confronto con caso di mercato in Monopolio, con e senza esternalitá di rete}{42}{section*.39}%
+\contentsline {subsubsection}{Interconnessione della rete tra due imprese vs Acquisto}{43}{section*.41}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.3.2)  21 MAR 2022 23:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.3.2)  1 APR 2022 16:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1123,7 +1123,9 @@ Package siunitx Info: Option "detect-all" has been deprecated in this release.
 
 )
 \c@theorem=\count525
- (./common/new_commands.tex) (./common/thesis_info.tex) (./common/font_config.tex)
+ (./common/new_commands.tex)
+\c@definition=\count526
+ (./common/thesis_info.tex) (./common/font_config.tex)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -1161,16 +1163,16 @@ LaTeX Info: Redefining \it@ocap on input line 35.
 LaTeX Info: Redefining \it@ccap on input line 35.
  (c:/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count526
+\scratchcounter=\count527
 \scratchdimen=\dimen312
 \scratchbox=\box84
-\nofMPsegments=\count527
-\nofMParguments=\count528
+\nofMPsegments=\count528
+\nofMParguments=\count529
 \everyMPshowfont=\toks58
-\MPscratchCnt=\count529
+\MPscratchCnt=\count530
 \MPscratchDim=\dimen313
-\MPnumerator=\count530
-\makeMPintoPDFobject=\count531
+\MPnumerator=\count531
+\makeMPintoPDFobject=\count532
 \everyMPtoPDFconversion=\toks59
 ) (c:/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1196,7 +1198,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (c:/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count532
+\c@section@level=\count533
 )
 LaTeX Info: Redefining \ref on input line 35.
 LaTeX Info: Redefining \pageref on input line 35.
@@ -1269,7 +1271,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count533
+\c@lstlisting=\count534
 LaTeX Info: Redefining \microtypecontext on input line 35.
 Package microtype Info: Applying patch `item' on input line 35.
 Package microtype Info: Applying patch `toc' on input line 35.
@@ -1294,7 +1296,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tran
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 35.
  (./common/config.tex) (./common/toptesi_config.tex
-<images/logo/logoPoliTo_symbol_only.pdf, id=119, 334.3692pt x 334.3692pt>
+<images/logo/logoPoliTo_symbol_only.pdf, id=143, 334.3692pt x 334.3692pt>
 File: images/logo/logoPoliTo_symbol_only.pdf Graphic file (type pdf)
 <use images/logo/logoPoliTo_symbol_only.pdf>
 Package pdftex.def Info: images/logo/logoPoliTo_symbol_only.pdf  used on input line 2.
@@ -1385,14 +1387,14 @@ l.76 \thispagestyle
                    {empty} [1
 
 
-] (./thesis.toc)
+] (./thesis.toc [2
+
+
+])
 \tf@toc=\write7
 \openout7 = `thesis.toc'.
 
- [2
-
-
-] [3
+ [3] [4
 
 
 ] (./common/post_summary_config.tex) (./content/chapters.tex (./content/chapters/introduzione.tex
@@ -1406,7 +1408,7 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
 ]) (./content/chapters/chapter1.tex [2]
 Capitolo 2.
-<images/chapter1/1.jpg, id=189, 223.58531pt x 158.09062pt>
+<images/chapter1/1.jpg, id=224, 223.58531pt x 158.09062pt>
 File: images/chapter1/1.jpg Graphic file (type jpg)
 <use images/chapter1/1.jpg>
 Package pdftex.def Info: images/chapter1/1.jpg  used on input line 23.
@@ -1414,7 +1416,7 @@ Package pdftex.def Info: images/chapter1/1.jpg  used on input line 23.
 [3
 
 ] [4 <./images/chapter1/1.jpg>] [5]
-<images/chapter1/2.jpg, id=224, 415.5525pt x 310.15875pt>
+<images/chapter1/2.jpg, id=258, 415.5525pt x 310.15875pt>
 File: images/chapter1/2.jpg Graphic file (type jpg)
 <use images/chapter1/2.jpg>
 Package pdftex.def Info: images/chapter1/2.jpg  used on input line 131.
@@ -1433,7 +1435,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5.00006> on input line 227.
  [8] [9] [10]
-<images/chapter1/3.jpg, id=279, 372.64218pt x 201.00093pt>
+<images/chapter1/3.jpg, id=314, 372.64218pt x 201.00093pt>
 File: images/chapter1/3.jpg Graphic file (type jpg)
 <use images/chapter1/3.jpg>
 Package pdftex.def Info: images/chapter1/3.jpg  used on input line 317.
@@ -1442,13 +1444,13 @@ Package pdftex.def Info: images/chapter1/3.jpg  used on input line 317.
 Underfull \vbox (badness 6658) has occurred while \output is active []
 
  [11] [12 <./images/chapter1/3.jpg>]
-<images/chapter1/4.jpg, id=299, 397.485pt x 260.47313pt>
+<images/chapter1/4.jpg, id=333, 397.485pt x 260.47313pt>
 File: images/chapter1/4.jpg Graphic file (type jpg)
 <use images/chapter1/4.jpg>
 Package pdftex.def Info: images/chapter1/4.jpg  used on input line 381.
 (pdftex.def)             Requested size: 292.77629pt x 191.86078pt.
  [13] [14 <./images/chapter1/4.jpg>]
-<images/chapter1/5.jpg, id=319, 199.49532pt x 181.42781pt>
+<images/chapter1/5.jpg, id=354, 199.49532pt x 181.42781pt>
 File: images/chapter1/5.jpg Graphic file (type jpg)
 <use images/chapter1/5.jpg>
 Package pdftex.def Info: images/chapter1/5.jpg  used on input line 408.
@@ -1457,19 +1459,19 @@ Package pdftex.def Info: images/chapter1/5.jpg  used on input line 408.
 Underfull \vbox (badness 2158) has occurred while \output is active []
 
  [15] [16 <./images/chapter1/5.jpg>] [17]
-<images/chapter1/6.jpg, id=350, 304.88907pt x 187.45032pt>
+<images/chapter1/6.jpg, id=384, 304.88907pt x 187.45032pt>
 File: images/chapter1/6.jpg Graphic file (type jpg)
 <use images/chapter1/6.jpg>
 Package pdftex.def Info: images/chapter1/6.jpg  used on input line 464.
 (pdftex.def)             Requested size: 292.77629pt x 180.0103pt.
  [18 <./images/chapter1/6.jpg>] [19]
-<images/chapter1/7.jpg, id=362, 380.92313pt x 250.68657pt>
+<images/chapter1/7.jpg, id=396, 380.92313pt x 250.68657pt>
 File: images/chapter1/7.jpg Graphic file (type jpg)
 <use images/chapter1/7.jpg>
 Package pdftex.def Info: images/chapter1/7.jpg  used on input line 517.
 (pdftex.def)             Requested size: 292.77629pt x 192.68115pt.
  [20 <./images/chapter1/7.jpg>]
-<images/chapter1/8.jpg, id=372, 743.77875pt x 433.62pt>
+<images/chapter1/8.jpg, id=407, 743.77875pt x 433.62pt>
 File: images/chapter1/8.jpg Graphic file (type jpg)
 <use images/chapter1/8.jpg>
 Package pdftex.def Info: images/chapter1/8.jpg  used on input line 565.
@@ -1483,13 +1485,13 @@ Overfull \hbox (25.00003pt too wide) in paragraph at lines 585--588
  []
 
 [22 <./images/chapter1/8.jpg>]
-<images/chapter1/9.jpg, id=394, 382.42876pt x 205.5178pt>
+<images/chapter1/9.jpg, id=429, 382.42876pt x 205.5178pt>
 File: images/chapter1/9.jpg Graphic file (type jpg)
 <use images/chapter1/9.jpg>
 Package pdftex.def Info: images/chapter1/9.jpg  used on input line 601.
 (pdftex.def)             Requested size: 292.77629pt x 157.34604pt.
  [23 <./images/chapter1/9.jpg>]
-<images/chapter1/10.jpg, id=401, 317.68687pt x 182.18062pt>
+<images/chapter1/10.jpg, id=436, 317.68687pt x 182.18062pt>
 File: images/chapter1/10.jpg Graphic file (type jpg)
 <use images/chapter1/10.jpg>
 Package pdftex.def Info: images/chapter1/10.jpg  used on input line 622.
@@ -1498,18 +1500,18 @@ Package pdftex.def Info: images/chapter1/10.jpg  used on input line 622.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24] [25 <./images/chapter1/10.jpg>]
-<images/chapter1/11.jpg, id=416, 355.3275pt x 261.22594pt>
+<images/chapter1/11.jpg, id=450, 355.3275pt x 261.22594pt>
 File: images/chapter1/11.jpg Graphic file (type jpg)
 <use images/chapter1/11.jpg>
 Package pdftex.def Info: images/chapter1/11.jpg  used on input line 673.
 (pdftex.def)             Requested size: 292.77629pt x 215.24698pt.
  [26 <./images/chapter1/11.jpg>] [27]
-<images/chapter1/12.jpg, id=434, 371.88937pt x 167.12437pt>
+<images/chapter1/12.jpg, id=468, 371.88937pt x 167.12437pt>
 File: images/chapter1/12.jpg Graphic file (type jpg)
 <use images/chapter1/12.jpg>
 Package pdftex.def Info: images/chapter1/12.jpg  used on input line 741.
 (pdftex.def)             Requested size: 292.77629pt x 131.57542pt.
-<images/chapter1/13.jpg, id=435, 362.85562pt x 170.88844pt>
+<images/chapter1/13.jpg, id=469, 362.85562pt x 170.88844pt>
 File: images/chapter1/13.jpg Graphic file (type jpg)
 <use images/chapter1/13.jpg>
 Package pdftex.def Info: images/chapter1/13.jpg  used on input line 753.
@@ -1517,26 +1519,96 @@ Package pdftex.def Info: images/chapter1/13.jpg  used on input line 753.
  [28 <./images/chapter1/12.jpg>]
 Underfull \vbox (badness 7451) has occurred while \output is active []
 
- [29 <./images/chapter1/13.jpg>])) [30] (./thesis.aux)
+ [29 <./images/chapter1/13.jpg>] [30] [31] [32] [33]
+<images/chapter1/14.jpg, id=517, 528.47438pt x 318.43968pt>
+File: images/chapter1/14.jpg Graphic file (type jpg)
+<use images/chapter1/14.jpg>
+Package pdftex.def Info: images/chapter1/14.jpg  used on input line 913.
+(pdftex.def)             Requested size: 292.77629pt x 176.41542pt.
+<images/chapter1/15.jpg, id=518, 529.98pt x 316.18124pt>
+File: images/chapter1/15.jpg Graphic file (type jpg)
+<use images/chapter1/15.jpg>
+Package pdftex.def Info: images/chapter1/15.jpg  used on input line 927.
+(pdftex.def)             Requested size: 292.77629pt x 174.66731pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34 <./images/chapter1/14.jpg>]
+<images/chapter1/16.jpg, id=524, 536.75531pt x 316.93407pt>
+File: images/chapter1/16.jpg Graphic file (type jpg)
+<use images/chapter1/16.jpg>
+Package pdftex.def Info: images/chapter1/16.jpg  used on input line 934.
+(pdftex.def)             Requested size: 292.77629pt x 172.87314pt.
+<images/chapter1/17.jpg, id=525, 536.75531pt x 275.52937pt>
+File: images/chapter1/17.jpg Graphic file (type jpg)
+<use images/chapter1/17.jpg>
+Package pdftex.def Info: images/chapter1/17.jpg  used on input line 941.
+(pdftex.def)             Requested size: 292.77629pt x 150.28874pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35 <./images/chapter1/15.jpg> <./images/chapter1/16.jpg>] [36 <./images/chapter1/17.jpg>]
+<images/chapter1/18.jpg, id=539, 500.62032pt x 364.73766pt>
+File: images/chapter1/18.jpg Graphic file (type jpg)
+<use images/chapter1/18.jpg>
+Package pdftex.def Info: images/chapter1/18.jpg  used on input line 997.
+(pdftex.def)             Requested size: 292.77629pt x 213.3178pt.
+ [37]
+<images/chapter1/19.jpg, id=550, 469.00218pt x 366.24329pt>
+File: images/chapter1/19.jpg Graphic file (type jpg)
+<use images/chapter1/19.jpg>
+Package pdftex.def Info: images/chapter1/19.jpg  used on input line 1004.
+(pdftex.def)             Requested size: 292.77629pt x 228.62766pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38 <./images/chapter1/18.jpg>]
+<images/chapter1/20.jpg, id=557, 314.67563pt x 179.16937pt>
+File: images/chapter1/20.jpg Graphic file (type jpg)
+<use images/chapter1/20.jpg>
+Package pdftex.def Info: images/chapter1/20.jpg  used on input line 1022.
+(pdftex.def)             Requested size: 292.77629pt x 166.70781pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39 <./images/chapter1/19.jpg>]
+<images/chapter1/21.jpg, id=564, 578.16pt x 431.36156pt>
+File: images/chapter1/21.jpg Graphic file (type jpg)
+<use images/chapter1/21.jpg>
+Package pdftex.def Info: images/chapter1/21.jpg  used on input line 1029.
+(pdftex.def)             Requested size: 292.77629pt x 218.43813pt.
+ [40 <./images/chapter1/20.jpg> <./images/chapter1/21.jpg>]
+<images/chapter1/22.jpg, id=571, 369.63094pt x 224.33812pt>
+File: images/chapter1/22.jpg Graphic file (type jpg)
+<use images/chapter1/22.jpg>
+Package pdftex.def Info: images/chapter1/22.jpg  used on input line 1050.
+(pdftex.def)             Requested size: 292.77629pt x 177.69414pt.
+ [41 <./images/chapter1/22.jpg>]
+<images/chapter1/23.jpg, id=579, 303.38344pt x 173.14688pt>
+File: images/chapter1/23.jpg Graphic file (type jpg)
+<use images/chapter1/23.jpg>
+Package pdftex.def Info: images/chapter1/23.jpg  used on input line 1065.
+(pdftex.def)             Requested size: 292.77629pt x 167.09625pt.
+ [42 <./images/chapter1/23.jpg>])) [43] (./thesis.aux)
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 5CC53F212F82D03762ABB5A9EC268CB4;5285.
+(rerunfilecheck)             Checksum: 3FDFA9000F86E4FCC11E6E949D6C1A47;6169.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43562 strings out of 478276
- 841808 string characters out of 5850490
- 1757828 words of memory out of 5000000
- 60598 multiletter control sequences out of 15000+600000
- 619927 words of font info for 255 fonts, out of 8000000 for 9000
+ 43715 strings out of 478276
+ 844479 string characters out of 5850490
+ 1757909 words of memory out of 5000000
+ 60672 multiletter control sequences out of 15000+600000
+ 620457 words of font info for 261 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 138i,25n,134p,1404b,1360s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi6.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmro10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy6.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on thesis.pdf (34 pages, 1323512 bytes).
+ 138i,25n,134p,1404b,2001s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi6.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmro10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy6.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on thesis.pdf (48 pages, 2386923 bytes).
 PDF statistics:
- 583 PDF objects out of 1000 (max. 8388607)
- 483 compressed objects within 5 object streams
- 146 named destinations out of 1000 (max. 500000)
- 84275 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 738 PDF objects out of 1000 (max. 8388607)
+ 610 compressed objects within 7 object streams
+ 204 named destinations out of 1000 (max. 500000)
+ 84373 words of extra memory for PDF output out of 89155 (max. 10000000)
 

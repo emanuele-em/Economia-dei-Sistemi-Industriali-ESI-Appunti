@@ -815,5 +815,284 @@ Il margine costo-prezzo è inversamente proporzionale a \(E_d\), ricavata nell'e
 
 La soluzione è diversa per via del fattore \(k\) ma simile. \(k\) prende il nome di \textit{scaling down factor}, lo stato quindi prende il prezzo di monopolio e lo abbassa
 
+\section{Sussidiarietá incrociata}
 
+\subsection{Test di Faulhaber}
+per rilevare la sussidiarietá incrociata si usa il test dei prezzi di Faulhaber:
 
+\begin{itemize}
+    \item I test dei costi incrementali:
+        \begin{itemize}
+            \item \(p_1q_1 \geq IC_1(q_1,q_2) = C(q_1,1_2)-C(0,q_2)\)
+            \item \(p_2q_2 \geq IC_2(q_1,q_2) = C(q_1,1_2)-C(q_1,0)\)
+        \end{itemize}
+    \item I test dei costi incrementali:
+        \begin{itemize}
+            \item \(p_1q_1 \leq C(q_1,0)\)
+            \item \(p_2q_2 \leq C(0,q_2)\)
+        \end{itemize}
+\end{itemize}
+
+Il prezzo deve essere quindi compreso tra il costo incrementale e il costo standalone. Se i due vincoli non sono soddisfatti allora c'è sussidiarietá incrociata
+
+\subsection{Esercizi}
+
+\subsubsection{Esercizio 1}
+Si consideri un'impresa che produce 3 prodotti (a,b,c) in modo che sia caratterizzata dalla seguente struttura di costo:
+\begin{itemize}
+    \item c(a)-c(b)=8
+    \item c(c)=6
+    \item c(ab)=14
+    \item c(bc)=10
+    \item c(ac)=10
+    \item c(abc)=17
+\end{itemize}
+Ipotizzando che la struttura dei prezzi che l'impresa intende applicare sia:
+\begin{itemize}
+    \item p(a)=8
+    \item p(b)=6
+    \item p(c)=4
+\end{itemize}
+mostrare se una tale combinazione dei prezzi incorpora effetti di sussidiarizzazione o meno, commentare il risultato.
+
+Con questa tipologia di esercizi si parte dai test di Faulhaber:
+
+I costi incrementali sono:
+        \begin{itemize}
+            \item I(a)=c(abc)-c(bc)= 7 < p(a)
+            \item I(b)=c(abc)-c(ac)= 7 > p(b)
+            \item I(c)=c(abc)-c(ab)= 3 < p(c)
+        \end{itemize}
+Si noti come il prezzo del bene \(b\) sia inferiore al costo incrementale, così come il prezzo del bene \(a\) sia pari al costo standalone. Sembrerebbe dunque che il bene \(a\) sussidi il bene \(b\)
+
+\subsubsection{Esercizio Test 1}
+Si immagini un Paese nel quale non vi sono restrizioni di bilancio pubblico e lo Stato può intervenire nel sistema economico usando fondi pubblici. In presenza
+di un contesto multiprodotto, un'impresa monopolista regolata vedrà i propri prezzi fissati:
+\begin{enumerate}[label=(\alph*)]
+    \item in base alla formula di Ramsey
+    \item in base alla regola del second best
+    \item in base alla regola del first best
+    \item in base alla regola dei prezzi pienamente distribuiti
+\end{enumerate}
+Non essendoci vincoli di bilancio, il regolatore può implementare la soluzione di first best anche in un contesto multiprodotto usando i trasferimenti dal bilancio a compensazione, da cui la risposta corretta è la \(c\). Si ricorda che la regola di Ramsey si applica laddove vi fossero appunto vincoli di bilancio pubblico e quindi l'impossibilità di usare i trasferimenti.
+
+\subsubsection{Esercizio Test 2}
+I prezzi regolati alla Ramsey di un monopolio naturale in un contesto multiprodotto prevedono che:
+\begin{enumerate}[label=(\alph*)]
+    \item il livello dei prezzi sia sempre pari al costo medio di produzione
+    \item il livello dei prezzi sia analogo a quello di monopolio non regolato
+    \item la struttura dei prezzi sia analoga a quella di un monopolio non regolato
+    \item valga la regola di proporzionalità diretta all'elasticità della domanda
+\end{enumerate}
+I prezzi di Ramsey hanno la stessa struttura dell'indice di Lerner dei prezzi in monopolio moltiplicati per un fattore k < 1. Ciò implica che i prezzi di Ramsey
+sono inversamente proporzionali all'elasticità della domanda (ergo la \(d\) è errata), sono superiori ai costi marginali e medi di produzione (ergo la \(a\) è errata, perché vale solo in contesto monoprodotto), hanno un livello più basso dei prezzi di monopolio (altrimenti che senso avrebbe regolarli; ergo la \(b\) è errata), ma la loro struttura è analoga a quella dei prezzi di monopolio non regolato (la \(c\) è l'unica risposta corretta).
+
+\subsubsection{Esercizio test 3}
+Un mercato è caratterizzato dalla seguente funzione inversa di domanda: \(p = 120 - q\), dove q è la quantità prodotta. La tecnologia di produzione del bene scambiato su tale mercato è caratterizzata dalla funzione di costo totale \(CT(q) = 6q + 1800\). Nel mercato opera un'impresa monopolista soggetta a regolazione da
+parte di un'Autorità settoriale. La soluzione socialmente ottimale di second best è data dalla seguente combinazione (i valori sono da intendersi arrotondati
+all'unità):
+
+\begin{enumerate}[label=(\alph*)]
+    \item \(p = 6; q = 114\)
+    \item \(p = 63; q = 57\)
+    \item \(p = 25; q = 95\)
+    \item \(p = 101; q = 19\)
+\end{enumerate}
+La soluzione socialmente ottimale di second best prevede che il prezzo di vendita del servizio sia pari al costo medio di produzione ossia: \(p = 120 - q = 6 + \frac{1800}{q}\) da cui \(q \approx  95\) e \(p \approx  25\). La soluzione in \(1\) è gravemente sbagliata perché corrisponde alla soluzione di first best (p = costo marginale). La soluzione \(b\) è quella che massimizza il profitto del monopolista, mentre la soluzione \(d\) è quella che si deriva dalla condizione di secondo grado sopra riportata, ma rappresenta una soluzione non ottimale dal punto di vista del benessere collettivo.
+
+\section{Esternalitá}
+
+In questo capitolo verrá illustrato come tutte le esternalitá, comprese quelle positive, generano un fallimento di mercato
+
+\subsection{Esternalitá negative}
+
+Ogni volta che si è in presenza di esternalitá i costi marginali esterni incrementano (MEC), sono costi indiretti legati a fattori come l'inquinamento. La somma dei costi marginali di produzione e dei costi marginali esterni danno i costi sociali
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.7\linewidth]{images/chapter1/14.jpg}
+    \caption{Curva considerando solo i MC}
+\end{figure}
+\begin{conditions*}
+    q_1 & è la quantitá venduta dalla singola impresa\\
+    p_1 & è il prezzo\\
+    D & Domanda\\
+    MC & è il costo marginale\\
+    S & Offerta
+\end{conditions*}
+
+Si introducano ora i MEC:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.7\linewidth]{images/chapter1/15.jpg}
+    \caption{Cuva considerando ance i MEC}
+\end{figure}
+
+E ora si sommino i due costi marginali interni ed esterni:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.7\linewidth]{images/chapter1/16.jpg}
+    \caption{Curva considerando MEC + MC}
+\end{figure}
+La soluzione idea dovrebbe tenere conto dei MEC, la quantitá ottimale sarebbe quello di produrre una quantitá \(q^*\), nel mondo reale però non se ne tiene conto, per questo si arriva al fallimento di mercato producendo più di quello che si dovrebbe (si produce \(Q_1\) anzichè \(Q^*\)). A questo punto si noti l'aggregato dei costi sociali che si trova tra \(MSC_1\), \(D\) e la linea tracciata da \(Q_1\) rappresenta il costo di sovrapproduzione
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.7\linewidth]{images/chapter1/17.jpg}
+    \caption{}
+\end{figure}
+Possibili soluzioni:
+\begin{itemize}
+    \item La legge impone di usare le nuove tecnologie quindi le imprese devono aumentare la curva dei \(MC\), alzandosi questa curva si riduce l'area dei costi aggregati
+    \item La legge impone delle tasse vendendo il cosiddetto \textit{Diritto ad inquinare}, la finalitá è quella di alzare la curva dei \(MC\) sempre riducendo l'area dei costi aggregati sociali
+\end{itemize}
+Il problema delle politiche ambientali è che diminuiscono il PIL dell'intero paese perchè di fatto le imprese producono meno, sono quindi dette \textit{anticicliche}, cioè vanno bene solo quando l'economia va bene. In un periodo storico molto negativo è lo stato che deve intervenire senza chiedere direttamente alle imprese, lo può fare dando dei sussidi alle imprese per migliorare le tecnologie e diminuire così la curva dei MEC. Un esempio sono gli incentivi ai costruttori di aerei per rinnovare i motori in modo da usare il comburente biofuel, lo stato lo fa per esempio dando sconti agli aerei che ne fanno utilizzo nelle tasse di atterraggio aeroportuali.
+
+\subsection{Esternalitá positive}
+
+Ci sono diveirse esternalitá positive, si terrá conto principalmente delle esternalitá di rete: presenti quando il valore di un bene dipende dal numero di persone che lo usano (rete telefonica, macchine fax, email, internet).
+\begin{equation}
+    U_i(q)=U_i(N,q)
+\end{equation}
+dove N è il numero di persone nella rete mentre q è la quantità consumata. Se nessuno utilizza questi beni allora non hanno valore. Le esternalitá di rete sono un tipo di esternalitá \(diretta\) ma esistono anche le esternalità positive di tipo \(indiretto\) ad esempio quando l'utilitá di un gruppo dipende dalla numerostá di un gruppo diverso. Nel caso di esternalitá di tipo diretto il gruppo che consuma il bene dipende dalla numerositá del gruppo stesso
+\begin{equation}
+    U_{i,A}(q)=U_{i,A}(N_A,q)
+\end{equation}
+Dove \(A\) è il gruppo in questione. In questi settori gioca un ruolo fondamentale il \textit{positive feedback effect} cioé la numerositá istantanea degli utilizzatori di un determinato bene.
+
+\subsubsection{Metcalfe's law}
+
+\begin{itemize}
+    \item Si assuma una rete di \(n\) utenti
+    \item Il massimo numero di connessioni è \(n(n-1) = n^2-n\)
+    \item quando \(n\leftarrow\infty\) il numero di connessioni può essere approssimato a \(n^2\)
+\end{itemize}
+
+\begin{definition}
+    La legge di Metcalfe dice che il valore effettivo di una rete è proporzionale al quadrato del numero di connesioni
+\end{definition}
+
+\subsubsection{Effetto palla di neve o Positive Feedback Effect}
+
+si supponga che nella rete entri una nuova persona, il nuovo numero di connessioni diventa \((n+1)n=n^2+n\), di conseguenza \(N_{c_0} - N_{c_1} = 2n\), \(2n\) rappresenta l'effetto dell'entrata di un utente nella rete, è quindi un incremento più che proporzionale. Le esternalitá di rete incrementano l'utilitá e incrementando l'utilitá portano ad un'esposizione della domanda.
+\subsubsection{Modello di Rohlfs}
+
+Si tratta di un modello utile a capire se la concorrenza perfetta riesce a risolvere gli effetti delle esternalitá. Si tratta di un modello semplificato e applicato principalmente alle reti. \(\Theta\) varia tra 0 e 1 ed è la disponibilitá a pagare, se tende a 0 allora la disponibilitá a pagare è molto alta, se tende a 1 allora la disponibilitá a pagare tende ad essere nulla.
+
+\begin{equation}
+    U(\Theta) = \begin{cases}
+        n(1-\Theta)-p \text{Se connesso}\\
+        0 \text{Se non è connesso}
+    \end{cases}
+\end{equation}
+
+l'utilitá cresce se il numero di \(n\) tra 0 e 1 cresce, corrisponde al numero delle persone normalizzato a 1.
+\begin{align*}
+    \text{Beneficio} = n(q-\Theta)\\
+    U(\Theta) = n(1-\Theta)-p
+\end{align*}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.7\linewidth]{images/chapter1/18.jpg}
+    \caption{Cruva del beneficio}
+\end{figure}
+Tutti gli individui che sono tra \(0\) e \(\widetilde{\Theta}\) avranno un beneficio maggiore del prezzo, \(\widetilde{\Theta}\) è quindi il cosiddetto consumatore indifferente, la sua utilitá è pari a 0. Se il prezzo si abbassa aumenteranno gli utilizzatori perchè ci saranno più consumatori con \(Ben>p\). Se si aumenta \(p\) diminuiscono i consumatori:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.7\linewidth]{images/chapter1/19.jpg}
+    \caption{Aumento del prezzo}
+\end{figure}
+
+Si ponga \(n(1-\widetilde{\Theta})-p=0\) e si ricavi \(\widetilde{\Theta}\):
+
+\begin{equation}
+    \widetilde{\Theta} = \frac{n-p}{n}
+\end{equation}
+Rappresenta perciò la domanda di connessioni ovvero il numero potenziale degli utenti che utilizzerebbero il servizio al prezzo \(p\). Il numero effettivo di utenti è \(n\), all'equilibrio quindi \(\widetilde{\Theta} = n\). All'equilibrio si sostituisce quindi \(n\) con \(\widetilde{\Theta}\) dato che sono uguali e si ottiene:
+\begin{align*}
+    &n(1-\widetilde{\Theta})-p=0\\
+    &\widetilde{\Theta}(1-\widetilde{\Theta})-p=0\\
+    &\widetilde{\Theta}(1-\widetilde{\Theta})=p
+\end{align*}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.7\linewidth]{images/chapter1/20.jpg}
+    \caption{Benefici degli utilizzatori}
+\end{figure}
+La paraola rappresenta i benefici degli utilizzatori, \(\widetilde{\Theta^L_0}\) e \(\widetilde{\Theta^H_0}\) sono i due punti di equilibrio, occorre capire quale dei due punti è equilibrio stabile e quale equilibrio instabile. Si analizza ogni punto di equilibrio nel loro intorno:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.7\linewidth]{images/chapter1/21.jpg}
+    \caption{Analisi di intorno degli equilibri trovati}
+\end{figure}
+
+Spostandosi leggeremente a sinistra di \(\widetilde{\Theta^L_0}\) i benefici saranno più bassi quindi tenderá ad andare verso lo 0, se ci si sposta a sinistra allora i benefici continueranno ad aumentare, perció \(\widetilde{\Theta}\) continuerá ad aumentare, l'equilibrio \(\widetilde{\Theta^L_0}\) è instabile. Analizzando invece \(\widetilde{\Theta^H_0}\) si nota che spostandosi a destra il beneficio sará minore del prezzo, spostandosi a sinistra invece tenderá verso il punto \(\widetilde{\Theta^H_0}\), l'equilibrio è quindi considerato stabile.
+
+Da questa semplice dimostrazione se ne trae una regola di fondamentale importanza: al lancio di una nuova tecnologia si deve raggiungere la soglia minima \(\widetilde{\Theta^L_0}\) altrimenti il mercato va a 0. L'elemento più importante non è il tempo ma il prezzo, per questo motivo spesso i servizi sono gratis. Altro elemento fondamentale da tenere in considerazione è il cosidetto \textit{Switching cost}. 
+
+\subsubsection{Analisi di mercato in presenza di esternalitá di rete}
+
+\begin{align*}
+    W&=\text{surplus lordo} - P(Q)\times Q + P(Q)\times Q-C(Q) = \\
+    &= \text{surplus lordo} - C(Q)
+\end{align*}
+
+il surplus lordo vale:
+\[\text{surplus lordo} = \int_{0}^{\widehat{\Theta} n(1-\Theta)}  \,d\Theta = n\left(\widehat{\Theta}\frac{\widehat{\Theta}^2}{2}\right) \]
+all'equilibrio \(n=\widehat{\Theta}\), la curva sostituendo \(n\) con \(\widehat{\Theta}\) è una curva cubica, aggiungendo all'analisi anche la curva dei costi:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.7\linewidth]{images/chapter1/22.jpg}
+    \caption{Analisi con curva dei costi}
+\end{figure}
+Si noti come \(W\) sia massimo quando la distanza tra la curva dei costi e quella del surplus lordo sia massima, si ricordi inoltre che in perfetta concorrenza vale la relazione \(P=C\) di conseguenza \(\widehat{\Theta}(1-\widehat{\Theta})=C\)
+
+\begin{itemize}
+    \item \(c=0 \rightarrow \widehat{\Theta_{max}}=1\)
+    \item \(c>0 \rightarrow \widehat{\Theta_{max}}<1\)
+\end{itemize}
+In concorrenza perfetta non si raggiunge l'ottimo in presenza di esternalitá positive di rete a meno che nel caso limite di costo nullo. Quindi sia in presenza di esternalitá negative, sia in presenza di esternalitá positive si raggiunge un fallimento di mercato. Si analizzi ora quale mercato è migliore in presenza di esternalitá di rete positiva, senza raggiungere la soluzione di efficienza.
+
+\subsubsection{Confronto con caso di mercato in Monopolio, con e senza esternalitá di rete}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.7\linewidth]{images/chapter1/23.jpg}
+    \caption{Analisi con curva dei costi}
+\end{figure}
+mano a mano che \(c\) sale il monopolista tenderá a coprire sempre meno mercato, la soluzione è quindi sempre e comunque sub-ottimale. La terza colonna rappresnta la penetranza di mercato. Si confronti il caso di monopolio con esternalitá e il monopolio senza esternalitá:
+
+In assenza di esternalitá:
+\begin{align*}
+                        n   &= 1 \rightarrow \\
+    \rightarrow u(\Theta)   &=(1-\Theta)-p \rightarrow \\
+    \rightarrow \widehat{\Theta} &= 1-p \rightarrow \\
+    \rightarrow \pi_s&=p\times \widehat{\Theta}-c\times \widehat{\Theta} =\\
+    &= (1-\widehat{\Theta}\widehat{\Theta}-c\widehat{\Theta}) \rightarrow\\
+    \rightarrow \frac{\partial \pi_s}{\partial \widehat{\Theta}} &= 1-2\widehat{\Theta}-c=0
+\end{align*}
+Senza esternalitá quindi se \(c=0\) il \(\widehat{\Theta_{max}}=\frac{1}{2}\) mentre in presenza di esternalitá \(\widehat{\Theta}=\frac{2}{3}\)
+
+\begin{equation}
+    \begin{split}
+        & \widehat{\Theta^{\text{no ext pos}}_{max}}=\frac{1}{2}\\
+        & \widehat{\Theta^{\text{ext pos}}_{max}}=\frac{2}{3}
+    \end{split}
+\end{equation}
+
+Anche in presenza di esternalitá di rete il mercato in concorrenza perfetta si comporta comunque in maniera migliore rispetto al mercato in situazione di monopolio.
+
+\subsubsection{Interconnessione della rete tra due imprese vs Acquisto}
+Per due reti di dimensione \(n_1\) e \(n_2\) interconnesse come cresce il valore reciproco? Si applica la legge di Metcalfe
+\begin{align*}
+    \Delta v_1=n_1(n_1+n_2)-n_1^2=n_1n_2\\
+    \Delta v_2=n_2(n_1+n_2)-n_2^2=n_1n_2
+\end{align*}
+Ne consegue che ogni rete ottiene lo stesso valore di interconnessione ma cosa accade se un'impresa acquisisce un'altra impresa?
+\[\Delta v_1 = (n_1+n_2)^2 - n_1^2-n_2^2=2n_1n_2\]
+L'azienda acquirente ottiene il doppio del beneficio rispetto alla semplice interconnessione
